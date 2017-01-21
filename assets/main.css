@@ -1,0 +1,59 @@
+html, body { 
+	height: 95%; 
+	width: 99%;
+	font-family: sans-serif;
+}
+
+body { 
+	text-align: center; 
+	position: relative;
+}
+
+img {
+	width: 550px;
+	height: 350px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -170px 0 0 -275px;
+	z-index: -10;
+}
+
+.text {
+	z-index: 5;
+	text-align: left;
+	width: 350px;
+	height: 180px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -80px 0 0 -175px;
+}
+
+h1 {
+	font-size: 20px;
+	font-weight: 200;
+}
+
+h2 {
+	font-size: 16px;
+	font-weight: 100;
+}
+
+a {
+	color: #131313;
+	text-decoration: none;
+}
+
+a:hover {
+	color: white;
+}
+
+.col-one, .col-two {
+	float: left;
+}
+
+.col-one {
+	padding-right: 20px;
+}
+
